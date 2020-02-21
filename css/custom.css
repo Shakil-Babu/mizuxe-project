@@ -1,0 +1,103 @@
+
+body{
+    margin-top: 83px;
+}
+
+
+#sectionOfnavbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#sectionOfnavbar .nav-item{
+    font-size: 1.4rem;
+    padding-right:15px;
+    
+}
+#sectionOfnavbar .nav-item:last-child{
+    padding-right: 0px;
+}
+#sectionOfnavbar .nav-link{
+    color:#333;
+}
+#sectionOfnavbar .nav-link:hover{
+    color:#3292a6;
+}
+
+#headerOfhomesection{
+    margin-top: 24px;
+}
+
+#imagesOfmockup{
+    margin-top: -4px;
+}
+
+#homeSection{
+    background-image: url('../img/mountains.jpg');
+    background-size: cover;
+    min-height: 600px;
+   
+}
+.img-overly{
+    background: #3292a6ad;
+    min-height: 600px;
+  
+}
+
+@media(max-width:991px){
+    #headerOfhomesection{
+        font-size:50px;
+    }
+}
+
+#cardOf1stbox{
+    border: 1px solid #3292a6;
+}
+
+.ButtonHover:hover{
+    background-color:#3292a6ad;
+}
+
+.ImageofAuthors{
+    border-radius: 200px;
+    width:100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#sectionOfmeet .ImageofAuthors{
+    margin-top: -60px;
+}
+#sectionOfmeet .ImageofAuthors:hover{
+    transform: translateY(-20px);
+    transition: all 3s;
+}
+
+#sectionOfmeet .card:hover{
+    background-color: #3292a6;
+    
+    color:#fff;
+    transition: all 1s;
+}
+#sectionOfmeet .card h3:hover{
+    
+    
+    color:#fff;
+    transition: all 1s;
+}
+
+#imgOflast:hover{
+    transform: translate(200px);
+    transition: all 5s;
+}
+
+
+@media(max-width:991px){
+    #homeSection{
+        min-height: 395px;
+    }
+    #homeSection .img-overly{
+        min-height: 395px;
+    }
+}
